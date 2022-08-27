@@ -1,7 +1,6 @@
-# gcc main.c -o game.exe -O1 -Wall -std=c99 -Wno-missing-braces -I include/ -L
-# lib/ -lraylib -lopengl32 -lgdi32 -lwinmm
-# Name of output file
-NAME = game
+# Simple makefile 
+
+NAME = pong
 
 #Linker flags
 LIBS  = -lm -lraylib -lopengl32 -lgdi32 -lwinmm
@@ -16,7 +15,7 @@ LIB_DIRS = lib/
 #Compiler
 CC = gcc
 
-SRC= main.c pong.c
+SRC= main.c pong_ui.c pong_app.c 
 
 all: $(NAME)
 

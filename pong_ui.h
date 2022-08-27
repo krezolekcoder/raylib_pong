@@ -9,7 +9,13 @@
  *
  */
 
-#ifndef PONG_H
-#define PONG_H
+#ifndef PONG_UI_H
+#define PONG_UI_H
 
-#endif /* PONG_H */
+#include "raylib.h"
+
+
+void pong_ui_initialize(void); 
+
+
+#endif /* PONG_UI_H */
