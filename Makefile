@@ -15,7 +15,7 @@ LIB_DIRS = lib/
 #Compiler
 CC = gcc
 
-SRC= main.c pong_ui.c pong_app.c 
+SRC= main.c pong_ui.c pong_app.c pong_ball.c pong_pad.c 
 
 all: $(NAME)
 
